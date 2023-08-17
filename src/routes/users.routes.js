@@ -10,7 +10,7 @@ router.post('/usuario', verificarUsuarioLogin)
 
 router.get('/usuario/:id', getUsuario)
 
-router.post('/usuario', crearUsuarios)
+//router.post('/usuario', crearUsuarios)
 
 router.put('/usuario', actualizarUsuarios)
 
